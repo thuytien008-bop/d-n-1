@@ -124,7 +124,7 @@
                 </p>
 
                 <div class="image-box">
-                    <div class="image-placeholder">Ảnh 1</div>
+                    <div class="image-placeholder">quality_restoration_20260208063841280.jpg</div>
                 </div>
 
                 <div class="image-box">
