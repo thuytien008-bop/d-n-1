@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border: 20px solid #333;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            border-bottom: 2px solid #333;
+        }
+
+        .header h1 {
+            color: #8B4513;
+            text-decoration: underline #ff0000;
+        }
+
+        .header-row {
+            display: flex;
+            border-bottom: 2px solid #333;
+        }
+
+        .header-cell {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            border-right: 2px solid #333;
+        }
+
+        .header-cell:last-child {
+            border-right: none;
+        }
+
+        .content-row {
+            display: flex;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            border-right: 20px solid #333;
+        }
+
+        .column:last-child {
+            border-right: none;
+        }
+
+        .intro-section p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .image-box {
+            border: 5px solid #6B8E23;
+            padding: 40px 60px;
+            margin: 15px auto;
+            text-align: center;
+            background: #f0f8f0;
+            width: fit-content;
+        }
+
+        .image-placeholder {
+            border: 2px solid #333;
+            padding: 15px 30px;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Lai</h1>
+        </div>
+
+        <!-- 3 ô tiêu đề -->
+        <div class="header-row">
+            <div class="header-cell"><h2>Khám phá</h2></div>
+            <div class="header-cell"><h2>Chia sẻ</h2></div>
+            <div class="header-cell"><h2>Trải nghiệm</h2></div>
+        </div>
+
+        <!-- 2 cột nội dung -->
+        <div class="content-row">
+
+            <!-- Cột trái -->
+            <div class="column">
+                <div class="intro-section">
+                    <p><strong>Introduce</strong></p>
+                    <p><strong>Tên:</strong> Trương Thị Hồng Lai</p>
+                    <p><strong>Lớp:</strong> 12A6</p>
+                    <p><strong>Địa chỉ:</strong> xã Bình An</p>
+                    <p><strong>Sở thích:</strong></p>
+                </div>
+            </div>
+
+            <!-- Cột phải (phần bạn gửi thêm) -->
+            <div class="column"> 
+           <p style="text-align: center; margin-bottom: 20px;">
+                    <strong>Picture</strong>
+                </p>
+
+                <div class="image-box">
+                    <div class="image-placeholder">Ảnh 1</div>
+                </div>
+
+                <div class="image-box">
+                    <div class="image-placeholder">Ảnh 2</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
